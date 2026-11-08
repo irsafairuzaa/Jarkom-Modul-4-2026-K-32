@@ -6,7 +6,7 @@ Tahap pertama kita buat topologi sesuai dengan ketentuan pada soal, lalu memberi
 
 Berikut daftar rute subnet dari A1 - A25 dengan jumlah IP dan Netmask tiap subnetnya
 
-<img width="517" height="284" alt="image" src="https://github.com/user-attachments/assets/45d9e0c0-c120-4f8f-8229-aa61397f2316" />
+<img width="944" height="580" alt="image" src="https://github.com/user-attachments/assets/45d9e0c0-c120-4f8f-8229-aa61397f2316" />
 
 Dari perhitungan tiap subnet, total IP yang dapat digunakan sebanyak 2814, maka prefixnya `/19` dengan total 8192 IP.
 
@@ -23,7 +23,7 @@ Belahan kiri yang sudah sesuai kebutuhan, dipakai untuk subnet. Belahan kanan di
 ### Subnetting
 Berikut merupakan hasil subnetting menggunakan metode VLSM
 
-<img width="455" height="275" alt="image" src="https://github.com/user-attachments/assets/c46af901-2b7d-4f97-a8bc-1b12cf612b43" />
+<img width="944" height="580" alt="image" src="https://github.com/user-attachments/assets/c46af901-2b7d-4f97-a8bc-1b12cf612b43" />
 
 #### Perhitungan
 Contoh pada subnet A4 
@@ -216,5 +216,6 @@ write
 
 ### Testing
 ping 8.8.8.8 dari taro
+
 <img width="582" height="268" alt="image" src="https://github.com/user-attachments/assets/41499f64-a71d-4ff9-9922-ec8e8a533776" />
 
