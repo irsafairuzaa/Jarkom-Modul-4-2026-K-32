@@ -1,4 +1,4 @@
-# Laporan dan Panduan Demo GNS3 — CIDR Kelompok K-32
+# Laporan dan Panduan Demo GNS3 CIDR Kelompok K-32
 
 **Proyek:** K-32-MODUL-4  
 **Mata praktikum:** Modul 4 Komunikasi Data dan Jaringan Komputer  
