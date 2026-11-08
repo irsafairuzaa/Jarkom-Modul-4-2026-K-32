@@ -2,18 +2,18 @@
 ### Topologi
 Tahap pertama kita buat topologi sesuai dengan ketentuan pada soal, lalu memberi nama di tiap subnetnya (A1,A2, dst) dengan total 25 subnet.
 
-![alt text](image-1.png)
+<img width="944" height="617" alt="topologi cisco" src="https://github.com/user-attachments/assets/16938a3b-320e-4562-8598-da60c3b2d9a1" />
 
 Berikut daftar rute subnet dari A1 - A25 dengan jumlah IP dan Netmask tiap subnetnya
 
-![alt text](image-2.png)
+<img width="517" height="284" alt="image" src="https://github.com/user-attachments/assets/45d9e0c0-c120-4f8f-8229-aa61397f2316" />
 
 Dari perhitungan tiap subnet, total IP yang dapat digunakan sebanyak 2814, maka prefixnya `/19` dengan total 8192 IP.
 
 ### Pohon VLSM
 Berikut pohon yang di buat untuk persebaran IP-nya yang dimulai base network yaitu `192.227.0.0/19`.
 
-![alt text](VLSM_Pohon.png)
+<img width="3287" height="715" alt="VLSM_Pohon" src="https://github.com/user-attachments/assets/61efb1b6-770b-4a4f-94e9-9c2c608e6b57" />
 
 Subnet diurutkan dari blok terbesar ke terkecil. Root selalu dibelah dua, setiap belahannya netmask dinaikan sebanyak 1 bit.
 - belahan kiri = networkID sama dengan induknya
@@ -23,7 +23,7 @@ Belahan kiri yang sudah sesuai kebutuhan, dipakai untuk subnet. Belahan kanan di
 ### Subnetting
 Berikut merupakan hasil subnetting menggunakan metode VLSM
 
-![alt text](image-4.png)
+<img width="455" height="275" alt="image" src="https://github.com/user-attachments/assets/c46af901-2b7d-4f97-a8bc-1b12cf612b43" />
 
 #### Perhitungan
 Contoh pada subnet A4 
@@ -172,13 +172,13 @@ ip route 0.0.0.0 0.0.0.0 192.227.16.89
 ## Testing
 Berikut test ping dari beberapa node
 - Karl ke Lain
-![alt text](image-5.png)
+<img width="574" height="256" alt="image" src="https://github.com/user-attachments/assets/c0bfaaa2-d95e-4a55-b1aa-caaeb784d83d" />
 
 - Alice ke Akashic
-![alt text](image-6.png)
+<img width="588" height="259" alt="image" src="https://github.com/user-attachments/assets/0127c4d7-da68-4e02-980b-b7578c9eb328" />
 
 - Eiri ke Lin
-![alt text](image-7.png)
+<img width="556" height="265" alt="image" src="https://github.com/user-attachments/assets/a168fa0b-9f72-4571-9cef-f3cb53f3b38d" />
 
 ## Revisi
 Belum dilakukan konfigurasi agar tiap node dapat terhubung/ ping google/ 8.8.8.8
@@ -216,4 +216,5 @@ write
 
 ### Testing
 ping 8.8.8.8 dari taro
-![alt text](image-8.png)
+<img width="582" height="268" alt="image" src="https://github.com/user-attachments/assets/41499f64-a71d-4ff9-9922-ec8e8a533776" />
+
